@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SubscriberInterrogator.Business</name>
+    </assembly>
+    <members>
+        <member name="T:SubscriberInterrogator.Business.Contracts.IPaymentProvider">
+            <summary>
+            IPaymentProvider
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Contracts.IPaymentProvider.ImportPayment(System.Collections.Generic.List{System.String})">
+            <summary>
+            Import Payment
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Helpers.ConvertDataTable">
+            <summary>
+            Convert to Data Table
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.ConvertDataTable.ConvertToDataTable``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            Convert Data Table (Generic)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Helpers.FileChooser">
+            <summary>
+            File chooser
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.FileChooser.#ctor">
+            <summary>
+            Default const
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.FileChooser.SaveFile(System.String)">
+            <summary>
+            Save file
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.FileChooser.ChooseFile">
+            <summary>
+            Choose file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Helpers.FileParser">
+            <summary>
+            File process
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.FileParser.ParseFile(System.String)">
+            <summary>
+            Parse file
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Helpers.Logger">
+            <summary>
+            Logger
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.Logger.LogMessage(System.String)">
+            <summary>
+            Create log
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Helpers.Prompt">
+            <summary>
+            Dialog creator
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Helpers.Prompt.ShowDialog(System.String,System.String)">
+            <summary>
+            Show Dialog
+            </summary>
+            <param name="text"></param>
+            <param name="caption"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SubscriberInterrogator.Business.Providers.PaymentProvider">
+            <summary>
+            Payment işlemleri için sağlayıcıdır.
+            </summary>
+        </member>
+        <member name="M:SubscriberInterrogator.Business.Providers.PaymentProvider.ImportPayment(System.Collections.Generic.List{System.String})">
+            <summary>
+            Müşterinin sisteme verdiği veriyi objelere dönüştürür. Yüklenen dosyalarda her bir veri 61 karakter olmalıdır aksi taktirde hatalı olarak sisteme yansır ve log eklenir. 
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

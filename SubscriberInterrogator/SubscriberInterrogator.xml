@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SubscriberInterrogator</name>
+    </assembly>
+    <members>
+        <member name="T:SubscriberInterrogator.Entities.BaseEntity`1">
+            <summary>
+            Base Entity
+            </summary>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="T:SubscriberInterrogator.Data.Entities.Customer">
+            <summary>
+            Customer model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.Data.Entities.Invoice">
+            <summary>
+            Invoice model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.Data.Entities.Payment">
+            <summary>
+            Payment model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.Data.Entities.Subscriber">
+            <summary>
+            Subscriber model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.ViewModels.ImportData">
+            <summary>
+            Import view model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.ViewModels.InvoiceData">
+            <summary>
+            Invoice view model
+            </summary>
+        </member>
+        <member name="T:SubscriberInterrogator.ViewModels.PaymentData">
+            <summary>
+            Payment view model
+            </summary>
+        </member>
+    </members>
+</doc>
